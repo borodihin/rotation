@@ -25,8 +25,12 @@ So I desolder USB connectors from USB-hub and Arduino and use small wires to con
 
 Electronics active cooling provided by small DC 12V fan powered from the second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
 
-There ate two end stop switchers placed on the top of the stand that used to stop motor to prevent mechanics damages. These pressed by the main big 50-tooth gear in its end positions.
+There ate two endstop switchers placed on the top of the stand that used to stop motor to prevent mechanics damages. These pressed by the main big 50-tooth gear in its end positions.
 
-When power is on first of all the display is rotated to its end position witch defined by the end stop switch pressed (power may be turned off directly on monitor rotating process and the display position is not clearly known) and then placed on the right wide-position. After that, I can turn the display to wide- or tall-position with binding Autohotkey keys (Win-F6 in the code). Same time I use Display program to change virtually display orientation and other connected displays positions.
+When power is on first of all the display is rotated to its end position witch defined by the endstop switch pressed (power may be turned off directly on monitor rotating process and the display position is not clearly known) and then placed on the right wide-position. After that, I can turn the display to wide- or tall-position with binding Autohotkey keys (Win-F6 in the code) and sending command to Arduino using serial port:
+<code>
+ RunWait, cmd /c echo o > COM3
+ </code>
+Same time I use Display program to change virtually display orientation and other connected displays positions.
 
 May be I will write some comprehensive code to synchronize Arduino and Autohotkey physical and virtual orientation, but now I can do in manually by pressing Alt-Win-F6 to place display virtual orientation to wide-position.
