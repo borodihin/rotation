@@ -15,13 +15,15 @@ The motor is powered from L298N H-bridge driven by Arduino Nano as you can see o
 
 <img width="600" src="/Pictures/scheme_bb.png">
 
-There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand and power from this stabd bay the small cable. Electronics active cooling provided by small DC 12V fan powered from second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
+There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand and power from this stabd bay the small cable.
 
-All elecronics placed in small box formed on the stand base. Oh to computer communication Arduino serial port is used. So there is a small 4-ports USB-hub in this project. 3 ports are on it's top and 4-th is on the small side:
+All elecronics placed in small box formed on the stand base. For computer communication Arduino serial port is used. So there is a small 4-ports USB-hub in this project. 3 ports are on it's top and 4-th is on the small side, placed under the top cover it is invisible:
 
 <img src="/Pictures/USBHub.png">
 
-So I desolder USB connectors from USB-hub and Arduino and use small wires to connect PCBs directly.
+So I desolder USB connectors from USB-hub and Arduino and use small wires to connect PCBs directly. In result I have fully functional  USB-ports and COM-port.
+
+Electronics active cooling provided by small DC 12V fan powered from second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
 
 There ate two endstop switchers placed on the top of stand that used to stop motor to prevent mecanics damages. These pressed by the main big 50-tooth gear in its end positions.
 
