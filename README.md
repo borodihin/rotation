@@ -5,9 +5,9 @@ Monitor stand is produced from 12 mm plywood:
 
 <img width="600" src="/Pictures/Stand.png">
 
-The display on this stand is rotated by <a href="https://www.aliexpress.com/item/DC-12V-30RPM-High-torque-Turbo-Encoder-Motor-Worm-Geared-Motor-Reducer-Motor-GM4632-370/32891279814.html">GM4632-370</a> DC 12V Geared-Motor, which in it's turn driving 1:5 plywood gear reductor with 10- and 50 teeth gears as you can see on the picture above (I use only 144&deg; sector of 50-teeth gear). By the way, you can visit Matthias Wandel <a href="http://www.woodgears.ca/">site</a> where you can find many interesting videos and power tool to draw such gears.
+The display on this stand is rotated by <a href="https://www.aliexpress.com/item/DC-12V-30RPM-High-torque-Turbo-Encoder-Motor-Worm-Geared-Motor-Reducer-Motor-GM4632-370/32891279814.html">GM4632-370</a> DC 12V Geared-Motor, which in it's turn driving 1:5 plywood gear reductor with 10- and 50-teeth gears as you can see on the picture above (I use only 144&deg; sector of 50-teeth gear). By the way, you can visit Matthias Wandel <a href="http://www.woodgears.ca/">site</a> where you can find many interesting videos and power tool to draw such gears.
 
-Used motor has a hall encoder, so I can count turns to place display correctly in wide- and tall-position. The motor pinout is on sceme placed below:
+Used motor has a Hall encoder, so I can count turns to place display correctly in wide- and tall-position. The motor pinout is on scheme placed below:
 
 <img width="300" height="150" src="/Pictures/pinout.png">
 
@@ -15,9 +15,9 @@ The motor is powered from L298N H-bridge driven by Arduino Nano as you can see o
 
 <img width="600" src="/Pictures/scheme_bb.png">
 
-There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand. Electronics active cooling provided by small DC 12V fan powered from second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
+There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand and power from this stabd bay the small cable. Electronics active cooling provided by small DC 12V fan powered from second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
 
-All elecronics placed in small box formed on the stand base. Oh to computer communication Arduino serial port is used. So there is a small 4-ports USB-hub in this project. 3 ports are on top 
+All elecronics placed in small box formed on the stand base. Oh to computer communication Arduino serial port is used. So there is a small 4-ports USB-hub in this project. 3 ports are on it's top and 4-th is on the small side/
 
 There ate two endstop switchers placed on the top of stand that used to stop motor to prevent mecanics damages. These pressed by the main big 50-tooth gear in its end positions.
 
