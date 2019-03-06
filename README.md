@@ -21,7 +21,7 @@ All electronics placed in the small box formed on the stand base. For computer c
 
 <img src="/Pictures/USBHub.png">
 
-So I desolder USB connectors from USB-hub and Arduino and use small wires to connect PCBs directly. In result, I have fully functional  USB-ports and full-time connected Arduino. By the way, there is an option to power this hub from the same DC 12V adapter using step down converter like this:
+So I desolder USB connectors from USB-hub and Arduino and use small wires to connect PCBs directly. In result, I have fully functional  USB-ports and full-time connected Arduino. By the way, there is an option to power this hub from the same DC 12V adapter using LM2596 step down <a href="https://www.aliexpress.com/item/Free-Shipping-1pcs-LM2596-LM2596S-DC-DC-4-5-40V-adjustable-step-down-power-Supply-module/32715399306.html?spm=a2g0v.10010108.1000001.11.3cca10e6PkMxCg">converter</a> like this:
 
 <img width="300" src="/Pictures/DC-DC.png">
 
