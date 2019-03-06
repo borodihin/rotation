@@ -21,7 +21,9 @@ All electronics placed in the small box formed on the stand base. For computer c
 
 <img src="/Pictures/USBHub.png">
 
-So I desolder USB connectors from USB-hub and Arduino and use small wires to connect PCBs directly. In result, I have fully functional  USB-ports and full-time connected Arduino. By the way, there is an option to power this hub from the same DC 12V adapter using step down converter.
+So I desolder USB connectors from USB-hub and Arduino and use small wires to connect PCBs directly. In result, I have fully functional  USB-ports and full-time connected Arduino. By the way, there is an option to power this hub from the same DC 12V adapter using step down converter like this:
+
+<img width="300" src="/Pictures/DC-DC.png">
 
 Electronics active cooling provided by small DC 12V fan powered from the second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
 
