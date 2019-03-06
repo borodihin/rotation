@@ -15,18 +15,18 @@ The motor is powered from L298N H-bridge driven by Arduino Nano as you can see o
 
 <img width="600" src="/Pictures/scheme_bb.png">
 
-There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand and power from this stabd bay the small cable.
+There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand and power from this stand by the small cable.
 
-All elecronics placed in small box formed on the stand base. For computer communication Arduino serial port is used. So there is a small 4-ports USB-hub in this project. 3 ports are on it's top and 4-th is on the small side, placed under the top cover it is invisible:
+All electronics placed in the small box formed on the stand base. For computer communication, the Arduino serial port is used. So there is a small 4-ports USB-hub in this project. Three ports are on its top and one is on the small side, placed under the top cover it is invisible:
 
 <img src="/Pictures/USBHub.png">
 
-So I desolder USB connectors from USB-hub and Arduino and use small wires to connect PCBs directly. In result I have fully functional  USB-ports and COM-port.
+So I desolder USB connectors from USB-hub and Arduino and use small wires to connect PCBs directly. In result, I have fully functional  USB-ports and COM-port.
 
-Electronics active cooling provided by small DC 12V fan powered from second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
+Electronics active cooling provided by small DC 12V fan powered from the second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
 
-There ate two endstop switchers placed on the top of stand that used to stop motor to prevent mecanics damages. These pressed by the main big 50-tooth gear in its end positions.
+There ate two end stop switchers placed on the top of the stand that used to stop motor to prevent mechanics damages. These pressed by the main big 50-tooth gear in its end positions.
 
-When power is on first of all the display is rotated to it's end position wich defined by the endstop switch pressed (power may turned off directly on monitor rotating process and display position is not clearly known) and then placed on the right wide-position. After that I can turn display to wide- or tall-position with binding Autohotkey keys (Win-F6 in the code). Same time I use Display programm to change virtually display orientation and othe connected displays positions.
+When power is on first of all the display is rotated to its end position witch defined by the end stop switch pressed (power may be turned off directly on monitor rotating process and the display position is not clearly known) and then placed on the right wide-position. After that, I can turn the display to wide- or tall-position with binding Autohotkey keys (Win-F6 in the code). Same time I use Display program to change virtually display orientation and other connected displays positions.
 
-May be I will write some comprehensive code to synchronize Arduino and Autohotkey physical and virtual orientation, but now I can do in manualy by pressing Alt-Win-F6 to place display virtual orientation to wide-position.
+May be I will write some comprehensive code to synchronize Arduino and Autohotkey physical and virtual orientation, but now I can do in manually by pressing Alt-Win-F6 to place display virtual orientation to wide-position.
