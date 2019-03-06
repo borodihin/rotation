@@ -5,12 +5,16 @@ Monitor stand is produced from 12 mm plywood:
 
 <img width="600" src="/Pictures/Stand.png">
 
-The display on this stand is rotated by <a href="https://www.aliexpress.com/item/DC-12V-30RPM-High-torque-Turbo-Encoder-Motor-Worm-Geared-Motor-Reducer-Motor-GM4632-370/32891279814.html">GM4632-370</a> DC 12V Geared-Motor, which in it's turn drive 1:5 plywood gear reductor as you can see on the picture above. By the way, you can visit Matthias Wandel <a href="http://www.woodgears.ca/">site</a> where you can find many interesting videos and power tool to draw such gears.
+The display on this stand is rotated by <a href="https://www.aliexpress.com/item/DC-12V-30RPM-High-torque-Turbo-Encoder-Motor-Worm-Geared-Motor-Reducer-Motor-GM4632-370/32891279814.html">GM4632-370</a> DC 12V Geared-Motor, which in it's turn driveing 1:5 plywood gear reductor as you can see on the picture above. By the way, you can visit Matthias Wandel <a href="http://www.woodgears.ca/">site</a> where you can find many interesting videos and power tool to draw such gears.
+
+Used motor has a hall encoder, so I can count turns to place display correctly in wide and tall orientation. The motor pinout is on sceme placed below:
+
+<img width="300" height="150" src="/Pictures/pinout.png">
 
 The motor is powered from L298N H-bridge driven by Arduino Nano as you can see on scheme below:
 
 <img width="600" src="/Pictures/scheme_bb.png">
 
-There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand.
+There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand. Electronics active cooling provided by small DC 12V fan powered from second channel of L298N. Temperature is controlled by DS18B20 OneWire sensor.
 
-<img width="300" height="150" src="/Pictures/pinout.png">
+All elecronics placed on small box formed in the stand base.
