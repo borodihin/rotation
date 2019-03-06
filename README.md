@@ -15,7 +15,7 @@ The motor is powered from L298N H-bridge driven by Arduino Nano as you can see o
 
 <img width="600" src="/Pictures/scheme_bb.png">
 
-There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand and power from this stand by the small cable.
+There are two power jacks on this scheme because I have another DC 12V monitor placed near the stand and powered from this stand by the small cable.
 
 All electronics placed in the small box formed on the stand base. For computer communication, the Arduino serial port is used. So there is a small 4-ports USB-hub in this project. Three ports are on its top and one is on the small side, placed under the top cover it is invisible:
 
