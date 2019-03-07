@@ -5,7 +5,9 @@ Monitor stand is produced from 12 mm plywood:
 
 <img width="600" src="/Pictures/Stand.png">
 
-The display on this stand is rotated by <a href="https://www.aliexpress.com/item/DC-12V-30RPM-High-torque-Turbo-Encoder-Motor-Worm-Geared-Motor-Reducer-Motor-GM4632-370/32891279814.html">GM4632-370</a> DC 12V Geared-Motor, which in it's turn driving 1:5 plywood gear reductor with 10- and 50-teeth gears as you can see on the picture above (I use only 144&deg; sector of 50-teeth gear). By the way, you can visit Matthias Wandel <a href="http://www.woodgears.ca/">site</a> where you can find many interesting videos and power tool to draw such gears.
+The display on this stand is rotated by <a href="https://www.aliexpress.com/item/DC-12V-30RPM-High-torque-Turbo-Encoder-Motor-Worm-Geared-Motor-Reducer-Motor-GM4632-370/32891279814.html">GM4632-370</a> DC 12V Geared-Motor, which drive 1:5 plywood gear reductor with 10- and 50-teeth gears as you can see on the picture below (I use only 144&deg; sector of 50-teeth gear). By the way, you can visit Matthias Wandel <a href="http://www.woodgears.ca/">site</a> where you can find many interesting videos and power tool to draw such gears.
+
+<img width="600" src="/Pictures/Gears.png">
 
 Used motor has a Hall encoder, so I can count turns to place display correctly in wide- and tall-position. The motor pinout is on scheme placed below:
 
