@@ -13,7 +13,7 @@ Used motor has a Hall encoder, so I can count turns to place display correctly i
 
 <img width="300" height="150" src="/Pictures/pinout.png">
 
-The motor is powered from L298N H-bridge driven by Arduino Nano as you can see on scheme below:
+The motor is powered by L298N H-bridge driven by Arduino Nano as you can see on scheme below:
 
 <img width="600" src="/Pictures/scheme_bb.png">
 
